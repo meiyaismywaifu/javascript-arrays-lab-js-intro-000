@@ -18,10 +18,10 @@ function removeFirstKitten(name){
 // --- --- --- //
 // .push, .unshift,
 function destructivelyAppendKitten(name){
-
+  return kittens.push(name);
 }
 function destructivelyPrependKitten(name){
-
+  return kittens.unshift(name);
 }
 function destructivelyRemoveLastKitten(name){
 
