@@ -16,7 +16,7 @@ function removeFirstKitten(name){
 }
 
 // --- --- --- //
-// .push, .unshift,
+// .push, .unshift, .pop, .shift
 function destructivelyAppendKitten(name){
   return kittens.push(name);
 }
